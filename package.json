@@ -1,0 +1,38 @@
+{
+  "name": "bli",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/bot.ts",
+    "dev": "bun run --watch src/bot.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "db:generate": "drizzle-kit generate:sqlite --config=src/database/db.config.ts",
+    "db:introspect": "drizzle-kit introspect:sqlite --config=src/database/db.config.ts",
+    "db:studio": "drizzle-kit studio --config=src/database/db.config.ts",
+    "db:migrate": "bun src/scripts/migrate.ts --config=src/database/db.config.ts"
+  },
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "discord.js": "^14.14.1",
+    "drizzle-orm": "^0.29.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.7",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-drizzle": "^0.2.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
