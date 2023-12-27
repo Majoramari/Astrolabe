@@ -10,22 +10,22 @@ import type {
   UserContextMenuCommandInteraction,
 } from "discord.js";
 
-import type { NebulaClient } from "@modules/client";
+import type { AstrolabeClient } from "@modules/client";
 
 type CommandProps = {
-  client: NebulaClient;
+  client: AstrolabeClient;
   interaction: ChatInputCommandInteraction<"cached">;
 };
 
 type ContextProps = {
-  client: NebulaClient;
+  client: AstrolabeClient;
   interaction:
     | MessageContextMenuCommandInteraction<"cached">
     | UserContextMenuCommandInteraction<"cached">;
 };
 
 export type CommandAutocompleteProps = {
-  client: NebulaClient;
+  client: AstrolabeClient;
   interaction: AutocompleteInteraction<"cached">;
 };
 

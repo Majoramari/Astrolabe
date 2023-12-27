@@ -4,7 +4,7 @@ import { type ClientOptions, Client } from "discord.js";
 import { configs } from "@modules/config";
 import { log } from "@modules/logger";
 
-export class NebulaClient extends Client {
+export class AstrolabeClient extends Client {
   constructor(options: ClientOptions) {
     super(options);
 
