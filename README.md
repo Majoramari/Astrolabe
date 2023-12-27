@@ -1,4 +1,4 @@
-> Astrolabe aka (الأسْطرْلاب) is an application able to interact with [discordapp public API](https://discord.com/developers/docs/reference) by MajorAmari
+> Astrolabe aka (الأسْطرْلاب) is an application able to interact with [discordapp public API](https://discord.com/developers/docs/reference) made for Nebula store by MajorAmari!
 
 ---
 
