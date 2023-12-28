@@ -5,6 +5,7 @@
   "scripts": {
     "start": "bun run src/bot.ts",
     "dev": "bun run --watch src/bot.ts",
+    "deploy": "bun run src/scripts/deploy.ts",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "db:generate": "drizzle-kit generate:sqlite --config=src/database/db.config.ts",
