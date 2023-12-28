@@ -19,7 +19,8 @@
       "@database/*": ["database/*"],
       "@modules/*": ["modules/*"],
       "@utils/*": ["utils/*"],
-      "@events": ["events"]
+      "@events": ["events"],
+      "@commands": ["commands"]
     }
   },
   "include": ["src"],
