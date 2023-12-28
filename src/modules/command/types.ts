@@ -56,6 +56,8 @@ export type Command = {
   };
 };
 
+export { SlashCommandSubcommandBuilder } from "discord.js";
+
 export type CommandCategoryExtra = {
   description?: string;
   thumbnail?: string;
