@@ -17,7 +17,9 @@
     "baseUrl": "src",
     "paths": {
       "@database/*": ["database/*"],
-      "@modules/*": ["modules/*"]
+      "@modules/*": ["modules/*"],
+      "@utils/*": ["utils/*"],
+      "@events": ["events"]
     }
   },
   "include": ["src"],
